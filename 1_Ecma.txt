@@ -1,0 +1,17 @@
+// ECMA SCRIPT
+
+//  ECMA Script is a standard on which  javascript is based
+// it was created to ensure that different docments on javascript
+// are actually talking about the same language
+
+//  javascript & ECMA Script can almost always be used interchangably 
+//  javascript is very liberal in what it allows.
+
+// ### How to ececute javascript
+
+// javascript can be executed right inside the browser.
+
+// Another way to execute js is a runtime like Node.js which can be installed 
+// and used to run js code
+
+// Another way to execute by inside the <script> </script> tag
