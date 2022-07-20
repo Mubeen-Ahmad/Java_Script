@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <!-- css file -->
   <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+<!-- main div -->
+<div id="main">
+  
+  <!-- title -->
+  <h1 id="title">Variable</h1>
+  
+  <!-- text -->
+  <p id="text"> 
+  A variable is a container that store a value <br>
+  The Value of a javascript variable can be changed during the execution of a program
+  </p>
 
-<!-- Variables -->
-<h1 id="tp">Vairable</h1>
+<!-- code -->
+<div id="code">
+  x = 2;
+  <br>
+  document.write(x);
+  <br>
+</div>
 
-<h2>A variable is a container that store the value.</h2>
-<p id="run">
-	The value of a js variable can be changed during the execution of a program.
-</p>
+<!-- Button -->
+<button id="btn" onclick="exe()">Execute Code</button>
 
-<button onclick="myFunction()">Execute Js</button>
-
+<!-- Java script code -->
 <script>
-function myFunction() {
-  let x = document.getElementById("run");
+  function exe() {
+    x = 2;
+    document.write(x);
+  }
+  </script>
   
-  
-</script>
+  </body>
+</div>
+
 </body>
 </html>
