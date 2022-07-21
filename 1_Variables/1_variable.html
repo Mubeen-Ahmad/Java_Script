@@ -19,7 +19,7 @@
   
 
   <!-- title -->
-  <h1 id="title"> Variable</h1>
+  <h1 id="title"> Variables</h1>
   
 
 
@@ -43,44 +43,163 @@
 
 
 
-            x = 2;<br>
-            document.write(x);
+            var x = 2;<br>
+            document.write(x);<br><br>
+        
+
+          </div>
+    </div>
+        <div id="code1">
+        
+          <div style="margin-left:20px">
+          var is the variable Type. <br>
+          x is the variable<br>
+          x is also know as identifier<br>
+          2 is the literal that are assign in the x variable<br>
+          = is the assignment operator
+          <br><br>
+          document.write(); function are used for write the data in the web page
+
+          </div>
+    </div>
+
+
+
+
+    <p id="output1"></p>
+
+    <!-- Button -->
+    <button id="btn1" onclick="exe1()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr1()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe1() {
+      
+
+      var x = 2;
+      document.getElementById("output1").innerHTML = x;
+    }
+
+     function clr1() {document.getElementById("output1").innerHTML = "";
+    }
+    </script>
+
+
+    <!-- code 2-->
+    
+  
+    <div id="code1">
+         <h3 style="margin-top: 0px;margin-left: 10px;"> Code</h3>
+          <div style="margin-left:20px">
+
+
+
+            y = 3;<br>
+            document.write(x);<br><br>
         
 
           </div>
     </div>
     
-    <p id="output1"></p>
+    <div id="code1">
+          
+
+          <div style="margin-left:20px">
+
+            If we are not used any variable type;<br>
+            Then Default Variable is var
+
+        
+
+          </div>
+    </div>
+    
+
+
+    <p id="output2"></p>
 
     <!-- Button -->
-    <button id="btn1" onclick="exe()">Run</button>
+    <button id="btn1" onclick="exe2()">Run</button>
 
     <!-- Button clear-->
     <div style="margin-top: -50px; margin-left: 110px;">
 
-        <button id="clr" onclick="clr()">Clear</button>
+        <button id="clr" onclick="clr2()">Clear</button>
     </div>
         <!-- Java script code 1-->
 
     <script>
-      function exe() {
+      function exe2() {
       
 
-      x = 2;
-      document.getElementById("output1").innerHTML = x;
-
+      y = 3;
+      document.getElementById("output2").innerHTML = y;
     }
 
-      function clr() {document.getElementById("output1").innerHTML = "";
+     function clr2() {document.getElementById("output2").innerHTML = "";
     }
     </script>
 
+    <!-- let variable -->
 
-
-
-
-
+    
   
+    <div id="code1">
+         <h3 style="margin-top: 0px;margin-left: 10px;"> Code</h3>
+          <div style="margin-left:20px">
+
+
+
+            let z = "Hello";<br>
+            document.write(z);<br><br>
+        
+
+          </div>
+    </div>
+    
+    <div id="code1">
+          
+
+          <div style="margin-left:20px">
+
+          let is another variable type
+
+          </div>
+    </div>
+    
+
+
+    <p id="output3"></p>
+
+    <!-- Button -->
+    <button id="btn1" onclick="exe3()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr3()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe3() {
+      
+
+      let z = "Hello";
+      document.getElementById("output3").innerHTML = z;
+    }
+
+     function clr3() {document.getElementById("output3").innerHTML = "";
+    }
+    </script>
+    
+    
 
 
 

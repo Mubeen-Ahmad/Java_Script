@@ -58,10 +58,10 @@ body{margin: 0px;padding: 0px;	background-color: lightseagreen;
 	border: 10px double lightseagreen;
 	/*border-radius: 30px 30px 30px 30px;*/
 	text-align: left;
-	font-style: italic;
+	font-style:normal;
 	font-size: 35px;
 	word-spacing: 10px;	
-	letter-spacing: -2px;
+	letter-spacing: 2px;
 
 	box-shadow: 0px 1000px 100px lightseagreen;
 	animation-name: text;
@@ -79,26 +79,21 @@ body{margin: 0px;padding: 0px;	background-color: lightseagreen;
 	width: 100px;
 	height: 50px;
 	font-size: 25px;
-	/*box-shadow: 0px 0px 10px  black;*/
-	/*margin-left: 800px;*/
+
 
 
 }
 
 #clr{
 	background-color: lightseagreen;
-	/*color: red;*/
 	border-radius: 100px 100px 100px 100px;
 	width: 100px;
 	height: 50px;
 	font-size: 25px;
-	/*box-shadow: 0px 0px 10px  black;*/
-	/*margin-top: 10px;*/
-	/*margin-left: 700px;*/
 
 }
 
-#output1 ,#output2{
+#output1 ,#output2,#output3,#output4{
 	font-size: 45px;
 	word-spacing: 10px;	
 	letter-spacing: 1px;

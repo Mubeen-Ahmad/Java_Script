@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubeen Ahmad</title>
+  
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- main div -->
+<div id="main">
+  
+  
+
+  <!-- title -->
+  <h1 id="title">Rules of Variables</h1>
+  
+
+
+
+  <!-- text -->
+    <p id="text"> 
+          
+  Use the following rules when you name procedures, constants, variables, and arguments
+    </p>
+
+  
+  
+  <!-- code 1-->
+    
+  
+    <div id="code1">
+         <h3 style="margin-top: 0px;margin-left: 10px;"> Rule 1</h3>
+          <div style="margin-left:20px">
+
+            Letters (a,b,c)<br>
+            Digits (1,2,3)<br>
+            underscore ( _ ) <br>
+            $ Sign are Allowed<br><br>
+
+
+            name = "Mubeen";<br>
+            no1 = 123;<br>
+            no_2 = 345;<br>
+            $_no3 = 678<br><br>
+
+            document.write(name);<br>
+            document.write(no1);<br>
+            document.write(no2);<br>
+            document.write($_name);<br>
+      
+
+          </div>
+    </div>
+        
+
+     <p id="output1"></p>
+     <p id="output2"></p>
+     <p id="output3"></p>
+     <p id="output4"></p>
+
+    <!-- Button -->
+    <button id="btn1" onclick="exe1()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr1()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe1() {
+      
+
+            name = "Mubeen";
+            no1 = 123;
+            no_2 = 345;
+            $_no3 = 678;
+
+          
+       document.getElementById("output1").innerHTML = name;
+       document.getElementById("output2").innerHTML = no1;
+       document.getElementById("output3").innerHTML = no_2;
+      document.getElementById("output4").innerHTML = $_no3;
+    
+
+    }
+
+     function clr1() {
+
+      document.getElementById("output1").innerHTML = "";
+      document.getElementById("output2").innerHTML = "";
+      document.getElementById("output3").innerHTML = "";
+      document.getElementById("output4").innerHTML = "";
+    }
+    </script>
+
+
+
+
+
+
+</div>
+</body>
+</html>
