@@ -17,7 +17,7 @@
 <div id="main">
   
   <!-- title -->
-  <h1 id="title">Variable</h1>
+  <h1 id="title"> Variable</h1>
   
   <!-- text -->
   <p id="text"> 
@@ -25,27 +25,43 @@
   The Value of a javascript variable can be changed during the execution of a program
   </p>
 
-<!-- code -->
-<div id="code">
-  x = 2;
-  <br>
-  document.write(x);
-  <br>
-</div>
+  <!-- code -->
+    
+  
+    <div id="code">
+    <h3 style="margin-top: 0px;margin-left: 10px;"> Code</h3>
+    <div style="margin-left:20px">
+
+    x = 2;<br>
+    document.write(x);
+    </div>
+  </div>
+
+
+<!-- output -->
+<p id="output"></p>
 
 <!-- Button -->
 <button id="btn" onclick="exe()">Execute Code</button>
 
 <!-- Java script code -->
+
 <script>
   function exe() {
     x = 2;
-    document.write(x);
+    document.getElementById("output").innerHTML = x;
   }
   </script>
+
   
-  </body>
+
+
+
+
+</body>
 </div>
+
+
 
 </body>
 </html>
