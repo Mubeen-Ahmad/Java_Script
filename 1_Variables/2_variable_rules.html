@@ -88,7 +88,7 @@
        document.getElementById("output1").innerHTML = name;
        document.getElementById("output2").innerHTML = no1;
        document.getElementById("output3").innerHTML = no_2;
-      document.getElementById("output4").innerHTML = $_no3;
+       document.getElementById("output4").innerHTML = $_no3;
     
 
     }
@@ -102,8 +102,170 @@
     }
     </script>
 
+    <!-- Rule 2 -->
 
+        <div id="code1">
+         <h3 style="margin-top: 0px;margin-left: 10px;"> Rule 2</h3>
+          <div style="margin-left:20px">
 
+            Must be begain with  :- 
+            <br> ( $ ),<br> ( _ ) ,<br>or ( letters )<br><br>
+
+            name = "Mubeen";<br>
+            $12 = 123;<br>
+            _23 = 345;<br><br>
+           
+            document.write(name);<br>
+            document.write($12);<br>
+            document.write(_23);<br>
+            
+
+          </div>
+    </div>
+        
+
+     <p id="output5"></p>
+     <p id="output6"></p>
+     <p id="output7"></p>
+     
+    <!-- Button -->
+    <button id="btn1" onclick="exe2()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr2()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe2() {
+      
+
+            name = "Mubeen";
+            $12 = 123;
+            _23 = 345;
+          
+       document.getElementById("output5").innerHTML = name;
+       document.getElementById("output6").innerHTML = $12;
+       document.getElementById("output7").innerHTML = _23;
+    
+
+    }
+
+     function clr2() {
+
+      document.getElementById("output5").innerHTML = "";
+      document.getElementById("output6").innerHTML = "";
+      document.getElementById("output7").innerHTML = "";
+      
+    }
+    </script>
+
+    <!-- Rule 3 -->
+    
+
+        <div id="code1">
+          <h3 style="margin-top: 0px;margin-left: 10px;"> Rule 3</h3>
+           <div style="margin-left:20px">
+ 
+            Reserved word are not used as a variable name <br>
+             
+             var = "Mubeen";<br>
+             let = 123<br><br>
+            
+             document.write(var);<br>
+             document.write(let);<br>
+             
+ 
+           </div>
+     </div>
+         
+ 
+      <p id="output8"></p>
+      <p id="output9"></p>
+      
+     <!-- Button -->
+     <button id="btn1" onclick="exe3()">Run</button>
+ 
+     <!-- Button clear-->
+     <div style="margin-top: -50px; margin-left: 110px;">
+ 
+         <button id="clr" onclick="clr3()">Clear</button>
+     </div>
+         <!-- Java script code 1-->
+ 
+     <script>
+       function exe3() {
+       
+ 
+            
+        document.getElementById("output8").innerHTML = "Error";
+        document.getElementById("output9").innerHTML = "Error";
+        
+ 
+     }
+ 
+      function clr3() {
+ 
+       document.getElementById("output8").innerHTML = "";
+       document.getElementById("output9").innerHTML = "";
+       
+     }
+     </script>
+ 
+<!-- Rule 4 -->
+
+        <div id="code1">
+          <h3 style="margin-top: 0px;margin-left: 10px;"> Rule 4</h3>
+           <div style="margin-left:20px">
+ 
+            A and a are Two Different Variables<br> 
+            its Case Sensitive <br><br>
+             
+             A = "Mubeen";<br>
+             a = "Ahmad"<br><br>
+            
+             document.write(A);<br>
+             document.write(a);<br>
+             
+ 
+           </div>
+     </div>
+         
+ 
+      <p id="output10"></p>
+      <p id="output11"></p>
+      
+     <!-- Button -->
+     <button id="btn1" onclick="exe4()">Run</button>
+ 
+     <!-- Button clear-->
+     <div style="margin-top: -50px; margin-left: 110px;">
+ 
+         <button id="clr" onclick="clr5()">Clear</button>
+     </div>
+         <!-- Java script code 1-->
+ 
+     <script>
+       function exe4() {
+       
+        A = "Mubeen";
+        a = "Ahmad"
+            
+        document.getElementById("output10").innerHTML = A;
+        document.getElementById("output11").innerHTML = a;
+        
+ 
+     }
+ 
+      function clr5() {
+ 
+       document.getElementById("output10").innerHTML = "";
+       document.getElementById("output11").innerHTML = "";
+       
+     }
+     </script>
 
 
 
