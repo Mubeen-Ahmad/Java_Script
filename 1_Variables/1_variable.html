@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mubeen Ahmad</title>
   
   <!-- css file -->
   <link rel="stylesheet" href="style.css">
@@ -16,52 +16,76 @@
 <!-- main div -->
 <div id="main">
   
+  
+
   <!-- title -->
   <h1 id="title"> Variable</h1>
   
-  <!-- text -->
-  <p id="text"> 
-  A variable is a container that store a value <br>
-  The Value of a javascript variable can be changed during the execution of a program
-  </p>
 
-  <!-- code -->
+
+
+  <!-- text -->
+    <p id="text"> 
+          
+   A variable is a container that store a value <br>
+  
+    The Value of a javascript variable can be changed during the execution of a program
+    </p>
+
+  
+  
+  <!-- code 1-->
     
   
-    <div id="code">
-    <h3 style="margin-top: 0px;margin-left: 10px;"> Code</h3>
-    <div style="margin-left:20px">
+    <div id="code1">
+         <h3 style="margin-top: 0px;margin-left: 10px;"> Code</h3>
+          <div style="margin-left:20px">
 
-    x = 2;<br>
-    document.write(x);
+
+
+            x = 2;<br>
+            document.write(x);
+        
+
+          </div>
     </div>
-  </div>
+    
+    <p id="output1"></p>
+
+    <!-- Button -->
+    <button id="btn1" onclick="exe()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe() {
+      
+
+      x = 2;
+      document.getElementById("output1").innerHTML = x;
+
+    }
+
+      function clr() {document.getElementById("output1").innerHTML = "";
+    }
+    </script>
 
 
-<!-- output -->
-<p id="output"></p>
 
-<!-- Button -->
-<button id="btn" onclick="exe()">Execute Code</button>
 
-<!-- Java script code -->
 
-<script>
-  function exe() {
-    x = 2;
-    document.getElementById("output").innerHTML = x;
-  }
-  </script>
 
   
 
 
 
 
-</body>
+
 </div>
-
-
-
 </body>
 </html>
