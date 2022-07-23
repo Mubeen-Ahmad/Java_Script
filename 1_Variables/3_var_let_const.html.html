@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubeen Ahmad</title>
+  
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- main div -->
+<div id="main">
+  
+  
+
+  <!-- title -->
+  <h1 id="title">Difference Between var, let, const</h1>
+  
+
+
+
+  <!-- text -->
+    <p id="text"> 
+One of the features that came with ES6 is the addition of let and const, which can be used for variable declaration.</p>
+
+  
+  
+  <!-- code 1-->
+    
+  
+    <div id="code1">
+         <!-- <h3 style="margin-top: 0px;margin-left: 10px;">var</h3> -->
+          <div style="margin-left:20px">
+
+          var is the globally scope while let and const are block scoped.
+
+
+          </div>
+    </div>
+        
+
+     <p id="output1"></p>
+     <p id="output2"></p>
+     <p id="output3"></p>
+     <p id="output4"></p>
+
+    <!-- Button -->
+    <button id="btn1" onclick="exe1()">Run</button>
+
+    <!-- Button clear-->
+    <div style="margin-top: -50px; margin-left: 110px;">
+
+        <button id="clr" onclick="clr1()">Clear</button>
+    </div>
+        <!-- Java script code 1-->
+
+    <script>
+      function exe1() {
+      
+
+            name = "Mubeen";
+            no1 = 123;
+            no_2 = 345;
+            $_no3 = 678;
+
+          
+       document.getElementById("output1").innerHTML = name;
+       document.getElementById("output2").innerHTML = no1;
+       document.getElementById("output3").innerHTML = no_2;
+      document.getElementById("output4").innerHTML = $_no3;
+    
+
+    }
+
+     function clr1() {
+
+      document.getElementById("output1").innerHTML = "";
+      document.getElementById("output2").innerHTML = "";
+      document.getElementById("output3").innerHTML = "";
+      document.getElementById("output4").innerHTML = "";
+    }
+    </script>
+
+
+
+
+
+
+</div>
+</body>
+</html>
